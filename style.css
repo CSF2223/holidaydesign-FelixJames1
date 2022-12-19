@@ -21,6 +21,29 @@ body {
     color: #ed4d45;
 }
 
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons button {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 2rem;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.buttons button a {
+    text-decoration: none;
+    color: #000000;
+}
+
 .celebrations {
     color: #dedfe4;
     padding-left: 2rem;
