@@ -32,11 +32,11 @@ body {
     border: none;
     border-radius: 2rem;
     color: white;
-    padding: 15px 32px;
+    padding: 1rem 2.6rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 8px;
+    font-size: 1rem;
 }
 
 .buttons button a {
@@ -70,10 +70,10 @@ body {
     border: none;
     border-radius: 2rem;
     color: white;
-    padding: 15px 32px;
+    padding: 1.5rem 3.2rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 }
