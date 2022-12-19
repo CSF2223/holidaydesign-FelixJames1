@@ -57,7 +57,7 @@ body {
 }
 
 .celebrations p {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
 }
 
 .celebrations img {
@@ -68,16 +68,17 @@ body {
 }
 
 @media (min-width: 800px) {
+    
     .buttons button {
-    background-color: #4CAF50;
-    border: none;
-    border-radius: 2rem;
-    margin: 1rem;
-    color: white;
-    padding: 1.5rem 3.2rem;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1.6rem;
-}
+        background-color: #4CAF50;
+        border: none;
+        border-radius: 2rem;
+        margin: 1rem;
+        color: white;
+        padding: 1.5rem 3.2rem;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1.6rem; 
+    }
 }
