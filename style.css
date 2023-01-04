@@ -19,6 +19,7 @@ body {
     font-size: 3.2rem;
     text-align: center;
     color: #ed4d45;
+    margin: 5rem;
 }
 
 .buttons {
@@ -57,7 +58,7 @@ body {
 }
 
 .celebrations p {
-    font-size: 1.8rem;
+    font-size: 2.4rem;
 } 
 
 .celebrations img {
@@ -81,4 +82,28 @@ body {
         display: inline-block;
         font-size: 1.6rem; 
     }
+    
+    .celebration1 {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .celebration2 {
+        margin-bottom: 5rem;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .celebration3 {
+        margin-bottom: 5rem;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .text {
+        margin: 2rem;
+    }
+    
 }
