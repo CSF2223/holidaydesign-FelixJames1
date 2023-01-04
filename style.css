@@ -1,0 +1,113 @@
+/*
+Color Palette
+background color:  #932421
+font color:        #ed4d45
+secondary color:   #dedfe4
+tertiary color:    #3f4636
+*/
+
+html {
+    font-size:62.5%;    /* Default font size is 16px- 62.5% of 16 is 10px -
+                           1 rem (relative unit) now will be equivalent to 10px */ 
+}
+
+body {
+    background-color: #932421;
+}
+
+.title {
+    font-size: 3.2rem;
+    text-align: center;
+    color: #ed4d45;
+    margin: 5rem;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons button {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 2rem;
+    color: white;
+    margin: 0.2rem;
+    padding: 1rem 2.6rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.buttons button a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.celebrations {
+    color: #dedfe4;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.celebrations h2 {
+    font-size: 2.6rem;
+}
+
+.celebrations p {
+    font-size: 1.8rem;
+} 
+
+.celebrations img {
+    width: 50%;
+    border: 0.5rem solid #3f4636;
+    border-radius: 2rem;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (min-width: 800px) {
+    
+    .celebrations p {
+        font-size: 2.4rem;
+    } 
+    
+    .buttons button {
+        background-color: #4CAF50;
+        border: none;
+        border-radius: 2rem;
+        margin: 1rem;
+        color: white;
+        padding: 1.5rem 3.2rem;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1.6rem; 
+    }
+    
+    .celebration1 {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .celebration2 {
+        margin-bottom: 5rem;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .celebration3 {
+        margin-bottom: 5rem;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .text {
+        margin: 2rem;
+    }
+    
+}
